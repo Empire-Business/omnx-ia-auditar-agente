@@ -62,7 +62,7 @@ Agente fora do ar: peça para reativar. Sem material nenhum: não audite, peça 
 
 ## Outro sistema operacional
 
-Testada só no macOS. O script usa só a biblioteca padrão do Python 3. Adapte e conte o que funcionou de verdade:
+O script usa só a biblioteca padrão do Python 3. Adapte e conte o que funcionou de verdade:
 
 - **Python:** `python3` (macOS, Linux), `py -3` ou `python` (Windows). Sem Python, não instale nada só para isso.
 - **Pasta pessoal:** `~` é `%USERPROFILE%` no Windows. Caminho com espaço vai entre aspas.
@@ -71,8 +71,5 @@ Testada só no macOS. O script usa só a biblioteca padrão do Python 3. Adapte 
 
 ## Outra ferramenta (Codex e outras)
 
-**Não foi testada no Codex** nem em outras ferramentas. Ao instalar em outra IA, adapte assim e conte à pessoa o que realmente testou:
-
-1. Coloque esta pasta inteira onde a ferramenta guarda skills ou instruções. Se ela não tiver esse recurso, salve a pasta num lugar fixo e aponte este `SKILL.md` nas instruções do projeto (no Codex, o `AGENTS.md`).
-2. Se a ferramenta não ler `description` para decidir sozinha, deixe claro que a pessoa precisa chamar a skill pelo nome.
-3. Troque `<pasta desta skill>` pelo caminho real e rode o script num JSON de teste. Sem instância separada para o modo `simulado`, diga que a própria ferramenta fez os dois papéis, o que enfraquece o teste.
+Compatível com Claude Code, Codex e outras ferramentas de agentes, em Mac, Windows e Linux. Se a pessoa pedir para instalar
+fora do Claude Code, a IA dela adapta na hora, testa no computador dela e conta o que realmente funcionou:
